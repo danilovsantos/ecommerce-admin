@@ -1,0 +1,243 @@
+
+body{
+    margin: 0px auto;
+    background-color: #6CA6CD;
+    /*background: rgba(212,228,239,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );*/
+    /*background-color: #ADD8E6;*/
+    
+
+    /*background: rgba(143,188,230,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(143,188,230,1) 0%, rgba(44,103,199,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(143,188,230,1)), color-stop(100%, rgba(44,103,199,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(143,188,230,1) 0%, rgba(44,103,199,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(143,188,230,1) 0%, rgba(44,103,199,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(143,188,230,1) 0%, rgba(44,103,199,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(143,188,230,1) 0%, rgba(44,103,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fbce6', endColorstr='#2c67c7', GradientType=1 );*/
+}
+
+.header{
+    height: 240px;
+    background-color: #2c67c7;
+    -webkit-box-shadow: 0px 3px 9px 0px rgba(45,42,115,1);
+    -moz-box-shadow: 0px 3px 9px 0px rgba(45,42,115,1);
+    box-shadow: 0px 3px 9px 0px rgba(45,42,115,1);
+}
+
+.user-navbar{
+    height: 57.4px;
+    width: 83%;
+    background-color:white;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-box-shadow: 0px 6px 10px 0px rgba(49,76,130,1);
+    -moz-box-shadow: 0px 6px 10px 0px rgba(49,76,130,1);
+    box-shadow: 0px 6px 10px 0px rgba(49,76,130,1);
+
+    -webkit-box-shadow: 0px 6px 1px 0px rgba(49,76,130,1);
+    -moz-box-shadow: 0px 6px 1px 0px rgba(49,76,130,1);
+    box-shadow: 0px 6px 1px 0px rgba(49,76,130,1);
+
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.navbar img{
+    z-index: 1;
+    margin: 0;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.category-selector{
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    z-index: 2;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-box-shadow: 0px 7px 1px 0px rgba(52,101,161,1);
+    -moz-box-shadow: 0px 7px 1px 0px rgba(52,101,161,1);
+    box-shadow: 0px 7px 1px 0px rgba(52,101,161,1);
+
+    -webkit-box-shadow: 0px 6px 1px 0px rgba(49,76,130,1);
+    -moz-box-shadow: 0px 6px 1px 0px rgba(49,76,130,1);
+    box-shadow: 0px 6px 1px 0px rgba(49,76,130,1);
+}
+
+.category-selector img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: 50px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.category-selector:hover{
+    cursor: pointer;
+}
+
+.circular{
+    border-radius: 50%;
+}
+
+.search-field{
+
+    padding: 15px 25px 15px 40px;
+    background-color: white;
+
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-box-shadow: 0px 7px 1px 0px rgba(52,101,161,1);
+    -moz-box-shadow: 0px 7px 1px 0px rgba(52,101,161,1);
+    box-shadow: 0px 7px 1px 0px rgba(52,101,161,1);
+
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(37,61,107,1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(37,61,107,1);
+    box-shadow: 0px 6px 0px 0px rgba(37,61,107,1);
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.search-field input{
+    width: 250px;
+    font-size: 24px;
+    border: none;
+    float: left;
+    background-color: transparent;
+}
+
+.search-field img {
+    float: left;
+    padding-left: 10px;
+    width: 39px; 
+    height: 34px;
+    margin-top: -3px;
+}
+
+.search-field input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-align: center;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.product-panel{
+    position: fixed;
+    top: 830px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-grid{
+    display: inline-block;
+    /*background-color: red;*/
+}
+
+.product{
+    clear: both;
+    padding: 10px 50px 10px 50px;
+}
+
+.product-border{
+    background-color:white; 
+    padding: 5px 25px 87px 25px;
+    
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(37,61,107,1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(37,61,107,1);
+    box-shadow: 0px 6px 0px 0px rgba(37,61,107,1);
+
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+}
+
+.product-border:hover{
+    cursor: pointer;
+}
+
+.product-descrptn ul {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.product-descrptn ul li{
+    font-family: calibri;
+    font-size: 12px;
+}
+
+.product-image{
+}
+
+.product img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-descrptn{
+  padding-top: 13px;
+}
+
+.centralize{
+    position: relative;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.no-bullet{
+    list-style: none;
+}
+
+.on-right{
+    float: right;
+}
+
+.on-left{
+    float: left;
+}
+
+.circle{
+
+    height: 85px;
+    width: 85px;
+    background-color: white;
+    border-radius: 50%;
+}
